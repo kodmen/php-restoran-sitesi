@@ -11,11 +11,11 @@ $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'tls';
 
 $mail->Port = 587;
-$mail->Host = "mail.hanrideb.com";
+$mail->Host = "";
 
-$mail->Username = "sitemail@hanrideb.com";
-$mail->Password = "sitemail123";
-$mail->setFrom("sitemail@hanrideb.com","bedirhan");
+$mail->Username = "";
+$mail->Password = "";
+$mail->setFrom("","");
 
 function mail_gonder($mailadres, $isim, $tarih, $saat){
 
